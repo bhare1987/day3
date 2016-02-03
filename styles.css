@@ -157,7 +157,53 @@ article h1 {
   color: lightgray;
 }
 
+.pullquote {
+  color: darkblue;
+  font-size: 2em;
+  border-left: 2px solid lightgray;
+  padding: 10px;
+}
 
+.pullquote > p {
+  margin: 0;
+  padding-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.shields {
+  list-style-type: none;
+  padding: 0;
+}
+
+.shields li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.shield-logo, .shield-content {
+  display: inline-block;
+  padding: 8px;
+  color: #fff;
+  font-size: .8em;
+}
+
+.shield-logo {
+  background-color: gray;
+}
+
+.shield-content {
+  background-color: darkgray;
+  margin-left: -5px;
+}
+
+li:last-child > .shield-logo {
+  background-color: darkblue;
+}
+
+li:last-child > .shield-content {
+  background-color: blue;
+}
 
 aside {
   width: 33.5%;
