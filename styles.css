@@ -106,6 +106,59 @@ header nav {
   box-sizing: borer-box;
 }
 
+article h1 {
+  font-size: 3em;
+  color: #162856;
+  margin-bottom: 5px;
+}
+
+.byline {
+  font-size: .8em;
+}
+
+.byline-author {
+  display: inline-block;
+}
+
+.byline-author img {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.byline-author p {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  padding-top: 5px;
+  color: darkblue;
+  font-weight:600;
+}
+
+.byline-date {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.byline-date p {
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 10px;
+  color: lightgray;
+}
+
+.byline-date span {
+  border-bottom: 1px solid lightgray;
+}
+
+.byline-date p::before {
+  content: 'on ';
+  color: lightgray;
+}
+
+
+
 aside {
   width: 33.5%;
   box-sizing: border-box;
