@@ -103,13 +103,14 @@ header nav {
 
 .content-container {
   width: 66%;
-  box-sizing: borer-box;
+  display: inline-block;
 }
 
 article h1 {
   font-size: 3em;
   color: #162856;
   margin-bottom: 5px;
+  margin-top: 60px;
 }
 
 .byline {
@@ -207,5 +208,43 @@ li:last-child > .shield-content {
 
 aside {
   width: 33.5%;
-  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.author-photo {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 21%;
+}
+
+.author-photo img {
+  width: 25%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 100%;
+}
+
+.author-social p {
+  text-align: center;
+}
+
+.social-links {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 79%;
+  padding: 0;
+  color: gray;
+}
+
+.social-links li {
+  display: inline-block;
+  border-right: 1px solid gray;
+  padding-right: 5px;
+}
+
+.social-links li:last-child {
+  border-right: 0px;
 }
