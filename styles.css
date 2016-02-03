@@ -2,15 +2,15 @@
 Header styles
 ===================*/
 header {
-  height: 450px;
-  outline: 1px solid black;
+  height: 600px;
+  background-image: url("./images/Ocean-waves.jpg");
 }
 
 header nav {
   height: 50px;
   width: 70%;
   margin: 0 auto;
-  outline: 1px solid black;
+  padding-top: 10px;
 }
 
 .nav-logo {
@@ -18,7 +18,7 @@ header nav {
   width: 70%;
 }
 
-.nav-logo img {
+.nav-logo i {
   display: inline-block;
 }
 
@@ -49,6 +49,12 @@ header nav {
   padding: 0;
 }
 
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 .nav-menu ul li:first-child {
   margin-right: 5px;
 }
@@ -72,10 +78,35 @@ header nav {
   color: white;
   font-family: sans-serif;
   font-weight: 500;
-  padding-top: 14%;
+  padding-top: 17%;
 }
 
 .header-container h2 {
   font-size: 1em;
   font-weight: 500;
+}
+
+.overlay {
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 255, .5);
+  z-index: 9999;
+}
+
+.main-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.content-container {
+  width: 66%;
+  box-sizing: borer-box;
+}
+
+aside {
+  width: 33.5%;
+  box-sizing: border-box;
 }
