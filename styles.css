@@ -1,0 +1,58 @@
+/*===================
+Header styles
+===================*/
+header {
+  height: 450px;
+  outline: 1px solid black;
+}
+
+header nav {
+  height: 50px;
+  width: 70%;
+  margin: 0 auto;
+  outline: 1px solid black;
+}
+
+.nav-logo {
+  display: inline-block;
+  width: 70%;
+}
+
+.nav-logo img {
+  display: inline-block;
+}
+
+.nav-logo p {
+  display: inline-block;
+  margin: 0;
+  padding-top: 17px;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.nav-menu {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 17px;
+}
+
+.nav-menu ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav-menu ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu ul li:first-child {
+  margin-right: 5px;
+}
+
+.fa-search {
+  transform: rotate(90deg);
+}
