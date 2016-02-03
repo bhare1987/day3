@@ -56,3 +56,26 @@ header nav {
 .fa-search {
   transform: rotate(90deg);
 }
+
+.header-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header-container h1, .header-container h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.header-container h1 {
+  font-size: 5.5em;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  padding-top: 14%;
+}
+
+.header-container h2 {
+  font-size: 1em;
+  font-weight: 500;
+}
