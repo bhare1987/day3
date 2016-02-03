@@ -104,6 +104,8 @@ header nav {
 .content-container {
   width: 66%;
   display: inline-block;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 article h1 {
@@ -247,4 +249,60 @@ aside {
 
 .social-links li:last-child {
   border-right: 0px;
+}
+
+.ad {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 300px;
+  background-image: url("./images/paddleboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -66px;
+}
+
+.ad > div {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 255, .5);
+}
+
+.ad-caption {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.ad-caption > a {
+  color: gray;
+}
+
+aside h3 {
+  color: darkblue;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 1em;
+}
+
+.sidebar-paragraph {
+  color: lightgray;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 24px;
+  font-size: .9em;
+  margin-top: 5px;
+}
+
+.popular-posts {
+  border-top: 1px solid lightgray;
+  margin-top: 50px;
+}
+
+.popular-posts h1 {
+  text-align: center;
+  font-size: 4em;
+  color: darkblue;
 }
