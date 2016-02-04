@@ -92,7 +92,7 @@ header nav {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 255, .5);
+  background-color: rgba(0, 51, 102, .5);
   z-index: 9999;
 }
 
@@ -265,7 +265,7 @@ aside {
 .ad > div {
   width: 100%;
   height: 300px;
-  background-color: rgba(0, 0, 255, .5);
+  background-color: rgba(0, 51, 102, .5);
 }
 
 .ad-caption {
@@ -309,29 +309,99 @@ aside h3 {
 
 .post-item {
   display: inline-block;
-  width: 24.7%;
+  width: 25%;
   height: 300px;
   margin: 0;
-  margin-right: -4px;
+  margin-right: -4.5px;
   padding: 0;
   vertical-align: top;
+  position: relative;
 }
 
 .post-item h2 {
   margin: 0;
   padding: 0;
   width: 80%;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+}
+
+.post-item:nth-child(2) {
+  color: #fff;
+}
+
+.post-item:nth-child(3) h2 {
+  top: 70%;
 }
 
 .post-item:nth-child(1){
-  background-image: url("./images/paddleboard.jpg");
+  background-image: url("./images/surfboard-guy.jpg");
+  background-size: cover;
 }
 .post-item:nth-child(2){
-  background-image: url("./images/paddleboard.jpg");
+  background-image: url("./images/beer.jpg");
+  background-size: cover;
+  background-position-x: -83px;
 }
 .post-item:nth-child(3){
-  background-image: url("./images/paddleboard.jpg");
+  background-image: url("./images/beard-guy.jpg");
 }
 .post-item:nth-child(4){
-  background-image: url("./images/paddleboard.jpg");
+  background-image: url("./images/liquor.jpeg");
+}
+
+.post-item > div {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 51, 102, .5);
+}
+
+footer {
+  background-color: #263746;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.footer-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  display: inline-block;
+}
+
+.footer-logo img {
+  width: 100px;
+}
+
+.footer-copyright {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 43px;
+  margin-left: -10px;
+  font-size: .9em;
+  width: 45%;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 35px;
+}
+
+footer ul li {
+  display: inline-block;
+  border-right: 1px solid gray;
+  padding: 10px;
+}
+
+footer ul li:nth-child(4) {
+  border-right: 0px;
+}
+
+footer nav {
+  display: inline-block;
+  vertical-align: top;
 }
