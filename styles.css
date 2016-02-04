@@ -194,10 +194,6 @@ article h1 {
   transition: opacity .5s;
 }
 
-.shields li:hover {
-  opacity: .5;
-}
-
 .shield-logo, .shield-content {
   display: inline-block;
   padding: 8px;
@@ -214,11 +210,11 @@ article h1 {
   margin-left: -5px;
 }
 
-li:last-child .shield-logo {
+.shields li a:hover .shield-logo {
   background-color: darkblue;
 }
 
-li:last-child .shield-content {
+.shields li a:hover .shield-content {
   background-color: blue;
 }
 
