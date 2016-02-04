@@ -352,10 +352,6 @@ Popular Posts styles
   left: 5%;
 }
 
-/*.post-item:nth-child(2) {
-  color: #fff;
-}*/
-
 .post-item:nth-child(3) h2 {
   top: 70%;
 }
