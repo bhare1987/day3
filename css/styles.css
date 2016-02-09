@@ -264,8 +264,6 @@ aside {
     position: absolute;
     top: 80%;
     left: 5%; }
-  .post-item:nth-child(3) h2 {
-    top: 70%; }
   .post-item:nth-child(1) {
     background-image: url("../images/surfboard-guy.jpg");
     background-size: cover; }
@@ -275,6 +273,8 @@ aside {
     background-position-x: -83px; }
   .post-item:nth-child(3) {
     background-image: url("../images/beard-guy.jpg"); }
+    .post-item:nth-child(3) h2 {
+      top: 70%; }
   .post-item:nth-child(4) {
     background-image: url("../images/liquor.jpeg"); }
   .post-item > div {

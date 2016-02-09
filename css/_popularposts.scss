@@ -26,9 +26,6 @@
     top: 80%;
     left: 5%;
   }
-  &:nth-child(3) h2 {
-    top: 70%;
-  }
   &:nth-child(1){
     background-image: url("../images/surfboard-guy.jpg");
     background-size: cover;
@@ -40,6 +37,9 @@
   }
   &:nth-child(3){
     background-image: url("../images/beard-guy.jpg");
+    h2 {
+      top: 70%;
+    }
   }
   &:nth-child(4){
     background-image: url("../images/liquor.jpeg");
