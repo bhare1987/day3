@@ -146,10 +146,10 @@ article h1 {
     margin-left: 5px;
     opacity: 1;
     transition: opacity .5s; }
-  .shields a:hover .shield-logo {
-    background-color: darkblue; }
-  .shields a:hover .shield-content {
-    background-color: blue; }
+    .shields li a:hover .shield-logo {
+      background-color: darkblue; }
+    .shields li a:hover .shield-content {
+      background-color: blue; }
 
 .shield-logo, .shield-content {
   display: inline-block;
@@ -161,7 +161,7 @@ article h1 {
   background-color: gray; }
 
 .shield-content {
-  background-color: darkgray;
+  background-color: lightgray;
   margin-left: -5px; }
 
 aside {

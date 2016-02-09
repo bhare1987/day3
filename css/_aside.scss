@@ -3,7 +3,7 @@ aside {
   display: inline-block;
   vertical-align: top;
   h3 {
-    color: darkblue;
+    color: $primaryColor;
     width: 80%;
     margin: 0 auto;
     margin-top: 50px;
@@ -81,7 +81,7 @@ aside {
 }
 
 .sidebar-paragraph {
-  color: lightgray;
+  color: $fontColor;
   width: 80%;
   margin: 0 auto;
   line-height: 24px;
