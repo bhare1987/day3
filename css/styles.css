@@ -1,0 +1,327 @@
+@keyframes popin {
+  0% {
+    transform: scale(0.5); }
+  50% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
+
+header {
+  height: 600px;
+  background-image: url("../images/Ocean-waves.jpg"); }
+  header nav {
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px; }
+
+.nav-logo {
+  display: inline-block;
+  width: 70%; }
+  .nav-logo i {
+    display: inline-block;
+    animation-name: swap;
+    animation-duration: 20s;
+    animation-iteration-count: infinite; }
+  .nav-logo p {
+    display: inline-block;
+    margin: 0;
+    padding-top: 17px;
+    padding-left: 10px;
+    vertical-align: top; }
+
+.nav-menu {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 10px; }
+  .nav-menu ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; }
+    .nav-menu ul li {
+      display: inline-block;
+      margin: 0;
+      padding: 10px; }
+      .nav-menu ul li:hover {
+        background-color: rgba(0, 0, 0, 0.25); }
+  .nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; }
+
+.fa-search {
+  transform: rotate(90deg); }
+
+.header-container {
+  width: 70%;
+  margin: 0 auto;
+  animation: popin 2s forwards; }
+  .header-container h1, .header-container h2 {
+    text-align: center;
+    margin: 0; }
+  .header-container h1 {
+    font-size: 5.5em;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-top: 17%; }
+  .header-container h2 {
+    font-size: 1em;
+    font-weight: 500; }
+
+.overlay {
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 70, 135, 0.8);
+  z-index: 9999; }
+
+.main-container {
+  width: 70%;
+  margin: 0 auto; }
+
+.content-container {
+  width: 66%;
+  display: inline-block;
+  padding-right: 20px;
+  box-sizing: border-box; }
+
+article h1 {
+  font-size: 3em;
+  color: #162856;
+  margin-bottom: 5px;
+  margin-top: 60px; }
+
+.byline {
+  font-size: .8em; }
+
+.byline-author {
+  display: inline-block; }
+  .byline-author img {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    display: inline-block; }
+  .byline-author p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    padding-top: 5px;
+    color: darkblue;
+    font-weight: 600; }
+
+.byline-date {
+  display: inline-block;
+  vertical-align: top; }
+  .byline-date p {
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: lightgray; }
+    .byline-date p::before {
+      content: 'on ';
+      color: lightgray; }
+  .byline-date span {
+    border-bottom: 1px solid lightgray; }
+
+.pullquote {
+  color: darkblue;
+  font-size: 2em;
+  border-left: 2px solid lightgray;
+  padding: 10px; }
+  .pullquote > p {
+    margin: 0;
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: top; }
+
+.shields {
+  list-style-type: none;
+  padding: 0; }
+  .shields li {
+    display: inline-block;
+    margin-left: 5px;
+    opacity: 1;
+    transition: opacity .5s; }
+  .shields a:hover .shield-logo {
+    background-color: darkblue; }
+  .shields a:hover .shield-content {
+    background-color: blue; }
+
+.shield-logo, .shield-content {
+  display: inline-block;
+  padding: 8px;
+  color: #fff;
+  font-size: .8em; }
+
+.shield-logo {
+  background-color: gray; }
+
+.shield-content {
+  background-color: darkgray;
+  margin-left: -5px; }
+
+aside {
+  width: 33.5%;
+  display: inline-block;
+  vertical-align: top; }
+  aside h3 {
+    color: darkblue;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 1em; }
+
+.author-photo {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 21%; }
+  .author-photo img {
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%; }
+
+.author-social p {
+  text-align: center; }
+
+.social-links {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 79%;
+  padding: 0;
+  color: gray; }
+  .social-links a {
+    text-decoration: none;
+    color: gray; }
+  .social-links li {
+    display: inline-block;
+    border-right: 1px solid gray;
+    padding-right: 5px; }
+    .social-links li:last-child {
+      border-right: 0px; }
+
+.ad {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 300px;
+  background-image: url("../images/paddleboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -66px; }
+  .ad > div {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 70, 135, 0.8);
+    opacity: 0;
+    transition: opacity .5s; }
+    .ad > div:hover {
+      opacity: 1; }
+
+.ad-caption {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5px;
+  text-align: right; }
+  .ad-caption > a {
+    color: gray; }
+
+.sidebar-paragraph {
+  color: lightgray;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 24px;
+  font-size: .9em;
+  margin-top: 5px; }
+
+.popular-posts {
+  border-top: 1px solid lightgray;
+  margin-top: 50px; }
+  .popular-posts h1 {
+    text-align: center;
+    font-size: 4em;
+    color: darkblue; }
+
+.post-item {
+  display: inline-block;
+  width: 25%;
+  height: 300px;
+  margin: 0;
+  margin-right: -4.5px;
+  padding: 0;
+  vertical-align: top;
+  position: relative; }
+  .post-item h2 {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    position: absolute;
+    top: 80%;
+    left: 5%; }
+  .post-item:nth-child(3) h2 {
+    top: 70%; }
+  .post-item:nth-child(1) {
+    background-image: url("../images/surfboard-guy.jpg");
+    background-size: cover; }
+  .post-item:nth-child(2) {
+    background-image: url("../images/beer.jpg");
+    background-size: cover;
+    background-position-x: -83px; }
+  .post-item:nth-child(3) {
+    background-image: url("../images/beard-guy.jpg"); }
+  .post-item:nth-child(4) {
+    background-image: url("../images/liquor.jpeg"); }
+  .post-item > div {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 70, 135, 0.8);
+    transition: background-color .5s, color .5s; }
+    .post-item > div:hover {
+      background-color: rgba(0, 70, 135, 0);
+      color: #fff; }
+
+footer {
+  background-color: #263746;
+  color: gray;
+  margin-bottom: 0; }
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 35px; }
+  footer li {
+    display: inline-block;
+    border-right: 1px solid gray;
+    padding: 10px; }
+    footer li:hover {
+      background-color: rgba(0, 0, 0, 0.25); }
+    footer li:nth-child(4) {
+      border-right: 0px; }
+    footer li a {
+      text-decoration: none;
+      color: gray; }
+  footer nav {
+    display: inline-block;
+    vertical-align: top; }
+
+.footer-container {
+  width: 70%;
+  margin: 0 auto; }
+
+.footer-logo {
+  display: inline-block; }
+  .footer-logo img {
+    width: 100px; }
+
+.footer-copyright {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 43px;
+  margin-left: -10px;
+  font-size: .9em;
+  width: 45%; }

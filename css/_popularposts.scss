@@ -1,0 +1,57 @@
+.popular-posts {
+  border-top: 1px solid lightgray;
+  margin-top: 50px;
+  h1 {
+    text-align: center;
+    font-size: 4em;
+    color: darkblue;
+  }
+}
+
+
+.post-item {
+  display: inline-block;
+  width: 25%;
+  height: 300px;
+  margin: 0;
+  margin-right: -4.5px;
+  padding: 0;
+  vertical-align: top;
+  position: relative;
+  h2 {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+  }
+  &:nth-child(3) h2 {
+    top: 70%;
+  }
+  &:nth-child(1){
+    background-image: url("../images/surfboard-guy.jpg");
+    background-size: cover;
+  }
+  &:nth-child(2){
+    background-image: url("../images/beer.jpg");
+    background-size: cover;
+    background-position-x: -83px;
+  }
+  &:nth-child(3){
+    background-image: url("../images/beard-guy.jpg");
+  }
+  &:nth-child(4){
+    background-image: url("../images/liquor.jpeg");
+  }
+  &>div {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 70, 135, .8);
+    transition: background-color .5s, color .5s;
+    &:hover {
+      background-color: rgba(0, 70, 135, 0);
+      color: #fff;
+    }
+  }
+}
